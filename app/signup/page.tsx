@@ -1,7 +1,8 @@
-"use client"; // 必须加在最顶上！！
+"use client";
 
 import React from 'react';
 import { useRouter } from 'next/navigation';
+import { MapPin } from 'lucide-react';
 
 export default function SignupPage() {
   const router = useRouter();
@@ -9,7 +10,7 @@ export default function SignupPage() {
   async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
-    const emailInput = (event.currentTarget.elements.namedItem("email") as HTMLInputElement);
+    const emailInput = event.currentTarget.elements.namedItem("email") as HTMLInputElement;
     const email = emailInput.value;
 
     const response = await fetch("/api/signup", {
@@ -23,7 +24,7 @@ export default function SignupPage() {
     const result = await response.json();
     if (response.ok) {
       alert("Signup successful! Redirecting to login page...");
-      router.push("/login"); // 成功后跳转到登录
+      router.push("/login");
     } else {
       alert(result.error || "Something went wrong");
     }
@@ -32,6 +33,12 @@ export default function SignupPage() {
   return (
     <div className="min-h-screen bg-gray-800 flex items-center justify-center px-4">
       <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+        {/* Branding */}
+        <a href="/" className="flex items-center justify-center mb-6">
+          <MapPin className="h-6 w-6 text-yellow-500" />
+          <span className="ml-2 text-xl font-bold  text-gray-800">Redback Operations</span>
+        </a>
+
         <h1 className="text-2xl font-bold text-center text-gray-800 mb-6">Sign Up</h1>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>

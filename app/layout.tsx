@@ -1,7 +1,8 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import LayoutClient from './layout-client'; // 👈 新增
+import LayoutClient from './layout-client';
+
 
 const inter = Inter({
   subsets: ['latin'],

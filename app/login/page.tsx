@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { useRouter } from 'next/navigation';
+import { MapPin } from 'lucide-react';
 
 export default function LoginPage() {
   const router = useRouter();
@@ -31,7 +32,7 @@ export default function LoginPage() {
     const result = await response.json();
     if (response.ok) {
       alert("Login successful! Redirecting...");
-      router.push("/"); // 登录成功跳转首页
+      router.push("/");
     } else {
       alert(result.error || "Something went wrong");
     }
@@ -39,7 +40,15 @@ export default function LoginPage() {
 
   return (
     <div className="min-h-screen bg-gray-800 flex items-center justify-center px-4">
-      <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+    <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+      {/* Branding */}
+      <a href="/" className="flex items-center justify-center mb-8">
+        <MapPin className="h-7 w-7 text-yellow-500" />
+        <span className="ml-3 text-2xl font-extrabold text-gray-800 font-sans tracking-wide">
+          Redback Operations
+        </span>
+      </a>
+
         <h1 className="text-2xl font-bold text-center text-gray-800 mb-6">Sign In</h1>
         <form onSubmit={handleLogin} className="space-y-4">
           <div>
