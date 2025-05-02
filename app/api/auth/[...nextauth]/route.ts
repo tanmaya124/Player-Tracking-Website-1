@@ -1,6 +1,7 @@
 import NextAuth from "next-auth"
 import CredentialsProvider from "next-auth/providers/credentials"
 import bcrypt from "bcrypt"
+import { userService } from "@/lib/userService"
 
 const handler = NextAuth({
   pages: {
@@ -21,30 +22,23 @@ const handler = NextAuth({
           throw new Error('Invalid credentials');
         }
 
-        // TODO: Replace this with your actual database lookup
-        // This is where you would look up the user in your database
-        // For now, we'll simulate a successful login for demo purposes
-        // with the credentials matching what we expect from signup
+        const user = userService.findUser(credentials.email);
         
-        // Mock user data - replace with actual database lookup
-        const mockUser = {
-          id: "1",
-          email: credentials.email,
-          name: credentials.email, // Use email as name instead of "Demo User"
-          password: await bcrypt.hash(credentials.password, 10), // In reality, this would come from your DB
-        };
-
-        const isValid = await bcrypt.compare(credentials.password, mockUser.password);
-
-        if (isValid) {
-          return {
-            id: mockUser.id,
-            email: mockUser.email,
-            name: mockUser.name,
-          };
+        if (!user) {
+          throw new Error('User not found');
         }
 
-        throw new Error('Invalid credentials');
+        const isValid = await bcrypt.compare(credentials.password, user.password);
+
+        if (!isValid) {
+          throw new Error('Invalid password');
+        }
+
+        return {
+          id: user.id,
+          email: user.email,
+          name: user.name,
+        };
       }
     }),
   ],

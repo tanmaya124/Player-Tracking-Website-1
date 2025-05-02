@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import bcrypt from "bcrypt";
 import { z } from "zod";
+import { userService } from "@/lib/userService";
 
 // Validation schema for request body
 const signupSchema = z.object({
@@ -24,16 +25,27 @@ export async function POST(request: Request) {
 
     const { name, email, password } = result.data;
 
-    // TODO: Check if user already exists in your database
-    // This is where you would typically check your database
-    // For now, we'll simulate this check
-    
+    // Check if user already exists
+    const existingUser = userService.findUser(email);
+    if (existingUser) {
+      return NextResponse.json(
+        { message: "User already exists" },
+        { status: 400 }
+      );
+    }
+
     // Hash the password
     const hashedPassword = await bcrypt.hash(password, 10);
 
-    // TODO: Store the user in your database
-    // This is where you would save the user to your database
-    // For now, we'll just return a success response
+    // Store the user
+    const user = {
+      id: Date.now().toString(),
+      name,
+      email,
+      password: hashedPassword
+    };
+    
+    userService.saveUser(user);
     
     return NextResponse.json(
       { message: "User created successfully" },
