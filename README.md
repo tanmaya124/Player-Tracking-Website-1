@@ -34,8 +34,8 @@ Authentication and user session management are handled via Firebase Authenticati
 
 The following sections of the platform are visually represented in the screenshots provided in the `public/` directory:
 
-- **Hero Section**: Visual landing section
-  ![Hero Section](public/hero_section.png)
+- **Dashboard**: Visual landing section
+  ![Hero Section](public/images/Dashboard.png)
   
 - **Testimonials**: User testimonials and stories
   ![Testimonials](public/images/Testimonials.png.png)
