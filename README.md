@@ -6,7 +6,7 @@ Whether you're tracking physical metrics, analyzing your game strategies, or see
 
 ---
 
-## 🏅 Features
+##  Features
 
 ### **AI Performance Insights**
 Gain **in-depth analysis** of your gameplay performance. Orion's AI algorithms analyze key metrics such as speed, agility, stamina, and movement patterns to provide actionable insights and help you optimize your training routine.

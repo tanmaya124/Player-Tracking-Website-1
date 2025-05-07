@@ -1,7 +1,7 @@
 // /components/AboutUs.js
 import { useState } from 'react';
 import { Button } from "@/components/ui/button"; 
-import { motion } from 'framer-motion';  // Optional: For animations
+import { motion } from 'framer-motion';  
 
 const AboutUs = () => {
   const [showMore, setShowMore] = useState(false);
