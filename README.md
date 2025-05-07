@@ -1,70 +1,67 @@
-# Project Orion – AI Sports Performance Assistant
+# Project Orion – AI Sports Performance Assistant 🚀
 
-Welcome to **Project Orion**, a next-generation AI-powered sports performance platform designed to enhance athletic performance, deliver data-driven insights, and support sports teams in reaching new levels of excellence.
+Welcome to **Project Orion**, an innovative AI-powered sports performance platform designed to elevate athletic performance, deliver data-driven insights, and empower sports teams to achieve new heights of excellence.
 
-Built using modern web technologies and machine learning, Project Orion empowers athletes, coaches, and sports scientists with actionable insights, advanced analytics, and intuitive tools for performance tracking and improvement.
+Built using cutting-edge web technologies and machine learning, **Project Orion** provides athletes, coaches, and sports scientists with actionable insights, advanced analytics, and intuitive tools for tracking and improving performance.
 
-## Features
+## 🌟 Key Features
 
-### AI Performance Insights
-Orion leverages machine learning models to analyze a range of athlete performance metrics including speed, stamina, agility, movement patterns, and more. Based on this data, the platform provides clear, personalized recommendations to help athletes train smarter and recover faster.
+| Feature                         | Description                                                                                       | Screenshot                          |
+|----------------------------------|---------------------------------------------------------------------------------------------------|-------------------------------------|
+| **AI Performance Insights** 💡   | Harness the power of machine learning to analyze athlete performance metrics and provide personalized training recommendations. | ![AI Performance Insights](public/images/Dashboard.png) |
+| **Interactive Dashboard** 📊    | Real-time, interactive dashboard for tracking performance metrics, visualizing data, and making data-driven decisions. | ![Dashboard](public/images/Dashboard.png) |
+| **AI Chatbot Assistant** 🤖     | Integrated AI chatbot that helps users navigate the platform, retrieve performance metrics, and answer training-related questions. | ![AI Chatbot](public/images/Chatbot.png) |
+| **Blog Section** 📝             | Curated collection of blog articles on sports science, fitness techniques, injury recovery, and AI in training. | ![Blog](public/images/AboutUs.png) |
+| **Testimonials & Awards** 🏆    | Hear from athletes benefiting from the platform and see recognitions and awards received for AI innovation in sports performance. | ![Testimonials](public/images/Testimonials.png) ![Awards](public/images/Awards.png) |
+| **FAQ Accordion** ❓            | Accordion-style FAQ section for easy navigation and user-friendly access to answers to common questions. | ![FAQs](public/images/FAQs.png) |
+| **Star Rating & Feedback** 🌟   | Allows users to provide feedback and rate their experience, helping improve the platform. | ![Feedback](public/images/Feedback.png) |
+| **Secure Authentication** 🔐    | Secure login and user session management using Firebase Authentication with support for email/password and OAuth. | ![Login](public/images/Login.png) ![Signup](public/images/Signup.png) |
 
-### Interactive Dashboard
-An advanced real-time dashboard allows users to monitor player statistics, view breakdowns of game performance, access AI-driven insights, and engage with a central hub for all relevant metrics. The dashboard is built for quick comprehension and data interactivity.
+## 📸 Screenshots
 
-### AI Chatbot Assistant
-The platform includes an integrated AI chatbot designed to assist users in navigating the site, retrieving performance metrics, answering training-related questions, and offering general platform support in real-time.
+Below are some visuals showcasing various sections of the platform:
 
-### Blog Section
-Users can access a curated collection of blog articles covering a range of topics such as sports science, fitness techniques, injury recovery, nutrition, and the application of AI in training.
+- **Dashboard**: Real-time performance tracking interface.
+  ![Dashboard](public/images/Dashboard.png)
 
-### Testimonials and Awards
-Project Orion showcases testimonials from athletes who have benefited from using the platform, along with recognitions and awards received for innovations in the AI and sports performance sectors.
+- **Testimonials**: Hear from athletes sharing their success stories.
+  ![Testimonials](public/images/Testimonials.png)
 
-### FAQ Accordion
-An intuitive accordion-style FAQ section is provided to answer common questions. This design keeps the interface clean and makes it easier for users to find the information they need without distraction.
+- **Awards**: Recognitions and certifications for our innovative AI solutions.
+  ![Awards](public/images/Awards.png)
 
-### Star Rating and Feedback
-Users can rate their experience with the platform and provide detailed feedback. This system helps in continuously improving the platform based on real user input.
+- **Blog**: Interface for reading the latest sports science articles.
+  ![Blog](public/images/AboutUs.png)
 
-### Secure Authentication
-Authentication and user session management are handled via Firebase Authentication, offering secure login and signup flows. The system supports email/password, OAuth, and secure token handling.
-
-## Screenshots
-
-The following sections of the platform are visually represented in the screenshots provided in the `public/` directory:
-
-- **Dashboard**: Visual landing section
-  ![Hero Section](public/images/Dashboard.png)
-  
-- **Testimonials**: User testimonials and stories
-  ![Testimonials](public/images/Testimonials.png.png)
-
-- **Awards**: Recognitions and certifications
-  ![Awards](public/awards.png)
-
-- **Blog**: Sports science article interface
-  ![Blog](public/blog.png)
-
-- **AI Chatbot**: Interactive chat assistant UI
+- **AI Chatbot**: User-friendly chatbot interface for real-time support.
   ![AI Chatbot](public/images/Chatbot.png)
 
-- **FAQs**: FAQs for more user interaction
+- **FAQs**: Accordion-style FAQ for easy user navigation.
   ![FAQs](public/images/FAQs.png)
 
-- **Feedback**: User feedback and rating area
+- **Feedback**: Feedback and rating section to improve platform usability.
   ![Feedback](public/images/Feedback.png)
 
-- **Login**: Secure user login interface
-  ![Login](public/login.png)
+- **Login**: Secure login interface for platform access.
+  ![Login](public/images/Login.png)
 
-- **Signup**: User registration interface
-  ![Signup](public/signup.png)
+- **Signup**: User registration interface for creating an account.
+  ![Signup](public/images/Signup.png)
 
-## Tech Stack
+## ⚙️ Tech Stack
 
-### Frontend
-- **Next.js 14** using the new App Router for optimized routing and performance.
-- **Tailwind CSS** for utility-first styling and responsive design.
-- **Lucide-react icons** to maintain a consistent and lightweight UI iconography.
-- **TypeScript** (optional but recommended) for strong type safety during development.
+**Frontend:**
+- **Next.js 14** – Optimized routing and performance using the latest features.
+- **Tailwind CSS** – Utility-first CSS framework for building responsive, modern interfaces.
+- **Lucide-react icons** – Lightweight and customizable icons to maintain a consistent UI.
+- **TypeScript** – Strong typing and enhanced code safety (optional but recommended).
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository and get started with Project Orion:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/Project-Orion.git
