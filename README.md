@@ -11,27 +11,28 @@ Orion leverages machine learning models to analyze a range of athlete performanc
 
 ### Interactive Dashboard
 An advanced real-time dashboard allows users to monitor player statistics, view breakdowns of game performance, access AI-driven insights, and engage with a central hub for all relevant metrics. The dashboard is built for quick comprehension and data interactivity.
-![Interactive Dashboard](public/interactive_dashboard.png)
+![Interactive Dashboard](public/images/dashboard.png)
 
 ### AI Chatbot Assistant
 The platform includes an integrated AI chatbot designed to assist users in navigating the site, retrieving performance metrics, answering training-related questions, and offering general platform support in real-time.
-![AI Chatbot](public/ai_chatbot.png)
+![AI Chatbot](public/images/Chatbot.png)
 
 ### Blog Section
 Users can access a curated collection of blog articles covering a range of topics such as sports science, fitness techniques, injury recovery, nutrition, and the application of AI in training.
-![Blog](public/blog.png)
+![Blog](public/images/blog.png)
 
 ### Testimonials and Awards
 Project Orion showcases testimonials from athletes who have benefited from using the platform, along with recognitions and awards received for innovations in the AI and sports performance sectors.
-![Testimonials](public/testimonials.png)
+![Testimonials](public/images/Testimonials.png.png)
 ![Awards](public/awards.png)
 
 ### FAQ Accordion
 An intuitive accordion-style FAQ section is provided to answer common questions. This design keeps the interface clean and makes it easier for users to find the information they need without distraction.
+![FAQs](public/images/FAQs.png)
 
 ### Star Rating and Feedback
 Users can rate their experience with the platform and provide detailed feedback. This system helps in continuously improving the platform based on real user input.
-![Feedback](public/feedback.png)
+![Feedback](public/images/Feedback.png)
 
 ### Secure Authentication
 Authentication and user session management are handled via Firebase Authentication, offering secure login and signup flows. The system supports email/password, OAuth, and secure token handling.
