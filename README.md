@@ -6,16 +6,16 @@ Built using cutting-edge web technologies and machine learning, **Project Orion*
 
 ## 🌟 Key Features
 
-| Feature                         | Description                                                                                       | Screenshot                          |
-|----------------------------------|---------------------------------------------------------------------------------------------------|-------------------------------------|
-| **AI Performance Insights** 💡   | Harness the power of machine learning to analyze athlete performance metrics and provide personalized training recommendations. | ![AI Performance Insights](public/images/Dashboard.png) |
-| **Interactive Dashboard** 📊    | Real-time, interactive dashboard for tracking performance metrics, visualizing data, and making data-driven decisions. | ![Dashboard](public/images/Dashboard.png) |
-| **AI Chatbot Assistant** 🤖     | Integrated AI chatbot that helps users navigate the platform, retrieve performance metrics, and answer training-related questions. | ![AI Chatbot](public/images/Chatbot.png) |
-| **Blog Section** 📝             | Curated collection of blog articles on sports science, fitness techniques, injury recovery, and AI in training. | ![Blog](public/images/AboutUs.png) |
-| **Testimonials & Awards** 🏆    | Hear from athletes benefiting from the platform and see recognitions and awards received for AI innovation in sports performance. | ![Testimonials](public/images/Testimonials.png) ![Awards](public/images/Awards.png) |
-| **FAQ Accordion** ❓            | Accordion-style FAQ section for easy navigation and user-friendly access to answers to common questions. | ![FAQs](public/images/FAQs.png) |
-| **Star Rating & Feedback** 🌟   | Allows users to provide feedback and rate their experience, helping improve the platform. | ![Feedback](public/images/Feedback.png) |
-| **Secure Authentication** 🔐    | Secure login and user session management using Firebase Authentication with support for email/password and OAuth. | ![Login](public/images/Login.png) ![Signup](public/images/Signup.png) |
+| Feature                         | Description                                                                                       
+|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------
+| **AI Performance Insights** 💡   | Harness the power of machine learning to analyze athlete performance metrics and provide personalized training recommendations. 
+| **Interactive Dashboard** 📊    | Real-time, interactive dashboard for tracking performance metrics, visualizing data, and making data-driven decisions. 
+| **AI Chatbot Assistant** 🤖     | Integrated AI chatbot that helps users navigate the platform, retrieve performance metrics, and answer training-related questions. 
+| **Blog Section** 📝             | Curated collection of blog articles on sports science, fitness techniques, injury recovery, and AI in training. 
+| **Testimonials & Awards** 🏆    | Hear from athletes benefiting from the platform and see recognitions and awards received for AI innovation in sports performance. 
+| **FAQ Accordion** ❓            | Accordion-style FAQ section for easy navigation and user-friendly access to answers to common questions.
+| **Star Rating & Feedback** 🌟   | Allows users to provide feedback and rate their experience, helping improve the platform.
+| **Secure Authentication** 🔐    | Secure login and user session management using Firebase Authentication with support for email/password and OAuth. 
 
 ## 📸 Screenshots
 
