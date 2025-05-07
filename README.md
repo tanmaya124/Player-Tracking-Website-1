@@ -53,34 +53,19 @@ Below are some visuals showcasing various sections of the platform:
 
 ### 🔧 **Frontend Tech Stack**
 
-#### **Framework & Language**
+#### **Framework
 - **Next.js (React Framework)**: Modern full-stack framework built on top of React.
-- **JavaScript / JSX**: Client-side logic and component creation.
 
 #### **Styling & UI**
 - **Tailwind CSS**: Utility-first CSS framework for fast UI development (`className="..."` usage confirms this).
-- **ShadCN/UI** *(implied by `@/components/ui/button`)*: A modern UI library built on top of Radix UI and Tailwind CSS.
 
 #### **Components & Icons**
 - **Custom Components**:
   - `FeedbackForm`, `Testimonials`, `WhyChooseUs`, `ChatBot`, etc., located in the `@/components/Changes/` directory.
-- **React Icons**: For social media icons like `FaTwitter`, `FaLinkedin`, etc.
+- **React Icons**: For social media icons like `Twitter`, `Linkedin`, etc.
 
 #### **Image Handling**
 - **next/image**: Optimized image rendering in Next.js (`import Image from 'next/image'`).
-
----
-
-### 📦 **Possible Tools/Services Used (Inferred)**
-- **YouTube Embed**: For video embedding inside `<iframe>`.
-- **Client-Side Rendering (`'use client'`)**: Next.js 13+ App Router with React Server Components and Client Components.
-
----
-
-### 🧪 Optional/External Features (Speculative from Component Names)
-- **Feedback & Chatbot Integration**: Likely tied to forms or chat service APIs (e.g., Typeform, Dialogflow, or custom backend).
-- **Dynamic Rating System**: `StarRating` suggests a client-side interactivity feature.
-- **Blog & FAQ Sections**: Might involve markdown parsing or CMS integration like **Sanity**, **Strapi**, or **Contentful** (depending on how those components are built).
 
 ---
 
@@ -89,12 +74,10 @@ Below are some visuals showcasing various sections of the platform:
 | Layer           | Tech Used                             |
 | --------------- | ------------------------------------- |
 | Framework       | Next.js (React)                       |
-| Language        | JavaScript (JSX)                      |
 | Styling         | Tailwind CSS                          |
-| UI Components   | ShadCN/UI (likely), Custom Components |
+| UI Components   | Custom Components |
 | Icons           | React Icons                           |
 | Image Handling  | `next/image`                          |
-| Hosting (guess) | Vercel (commonly used with Next.js)   |
 
 ---
 
