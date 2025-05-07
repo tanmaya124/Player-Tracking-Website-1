@@ -22,8 +22,9 @@ Built using cutting-edge web technologies and machine learning, **Project Orion*
 
 Below are some visuals showcasing various sections of the platform:
 
-- **Dashboard**: Real-time performance tracking interface.
+- **Dashboard**: Simple and user friendly interface.
   ![Dashboard](public/images/Dashboard.png)
+  ![AboutUs](public/images/AboutUs.png)
 
 - **Testimonials**: Hear from athletes sharing their success stories.
   ![Testimonials](public/images/Testimonials.png)
@@ -32,12 +33,12 @@ Below are some visuals showcasing various sections of the platform:
   ![Awards](public/images/Awards.png)
 
 - **Blog**: Interface for reading the latest sports science articles.
-  ![Blog](public/images/AboutUs.png)
+  ![Blog](public/images/Blog.png)
 
 - **AI Chatbot**: User-friendly chatbot interface for real-time support.
   ![AI Chatbot](public/images/Chatbot.png)
 
-- **FAQs**: Accordion-style FAQ for easy user navigation.
+- **FAQs**: FAQ for easy user navigation.
   ![FAQs](public/images/FAQs.png)
 
 - **Feedback**: Feedback and rating section to improve platform usability.
