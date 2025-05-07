@@ -6,16 +6,17 @@ Built using cutting-edge web technologies and machine learning, **Project Orion*
 
 ## 🌟 Key Features
 
-| Feature                         | Description                                                                                       
-|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------
-| **AI Performance Insights** 💡   | Harness the power of machine learning to analyze athlete performance metrics and provide personalized training recommendations. 
-| **Interactive Dashboard** 📊    | Real-time, interactive dashboard for tracking performance metrics, visualizing data, and making data-driven decisions. 
-| **AI Chatbot Assistant** 🤖     | Integrated AI chatbot that helps users navigate the platform, retrieve performance metrics, and answer training-related questions. 
-| **Blog Section** 📝             | Curated collection of blog articles on sports science, fitness techniques, injury recovery, and AI in training. 
-| **Testimonials & Awards** 🏆    | Hear from athletes benefiting from the platform and see recognitions and awards received for AI innovation in sports performance. 
-| **FAQ Accordion** ❓            | Accordion-style FAQ section for easy navigation and user-friendly access to answers to common questions.
-| **Star Rating & Feedback** 🌟   | Allows users to provide feedback and rate their experience, helping improve the platform.
-| **Secure Authentication** 🔐    | Secure login and user session management using Firebase Authentication with support for email/password and OAuth. 
+| Feature                      | Description                                                                                     |
+|-----------------------------|-------------------------------------------------------------------------------------------------|
+| Real-Time Performance Insights | Analyze video and motion data in real time to deliver precise, personalized training recommendations. |
+| Interactive Dashboard       | Real-time, interactive dashboard for tracking performance metrics and visualizing actionable insights. |
+| AI Chatbot Assistant        | AI chatbot helps users navigate the platform and answer training-related/ other questions. |
+| Blog Section                | Blog articles on sports science, injury recovery, nutrition, and AI in training.        |
+| Testimonials & Awards       | Displays user testimonials and highlights recognitions received for innovation in sports tech.  |
+| FAQ Accordion               | Clean accordion-style FAQ section for intuitive access to common questions.                     |
+| Star Rating & Feedback      | Collects user feedback and ratings to help improve the platform.                                |
+| SignIn/SignUp      | Firebase Authentication for secure sign-in with email/password.              |
+ 
 
 ## 📸 Screenshots
 
