@@ -51,18 +51,50 @@ Below are some visuals showcasing various sections of the platform:
 
 ## ⚙️ Tech Stack
 
-**Frontend:**
-- **Next.js 14** – Optimized routing and performance using the latest features.
-- **Tailwind CSS** – Utility-first CSS framework for building responsive, modern interfaces.
-- **Lucide-react icons** – Lightweight and customizable icons to maintain a consistent UI.
-- **TypeScript** – Strong typing and enhanced code safety (optional but recommended).
+### 🔧 **Frontend Tech Stack**
+
+#### **Framework & Language**
+- **Next.js (React Framework)**: Modern full-stack framework built on top of React.
+- **JavaScript / JSX**: Client-side logic and component creation.
+
+#### **Styling & UI**
+- **Tailwind CSS**: Utility-first CSS framework for fast UI development (`className="..."` usage confirms this).
+- **ShadCN/UI** *(implied by `@/components/ui/button`)*: A modern UI library built on top of Radix UI and Tailwind CSS.
+
+#### **Components & Icons**
+- **Custom Components**:
+  - `FeedbackForm`, `Testimonials`, `WhyChooseUs`, `ChatBot`, etc., located in the `@/components/Changes/` directory.
+- **React Icons**: For social media icons like `FaTwitter`, `FaLinkedin`, etc.
+
+#### **Image Handling**
+- **next/image**: Optimized image rendering in Next.js (`import Image from 'next/image'`).
 
 ---
 
-## 🚀 Getting Started
+### 📦 **Possible Tools/Services Used (Inferred)**
+- **YouTube Embed**: For video embedding inside `<iframe>`.
+- **Client-Side Rendering (`'use client'`)**: Next.js 13+ App Router with React Server Components and Client Components.
 
-Clone the repository and get started with Project Orion:
+---
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/Project-Orion.git
+### 🧪 Optional/External Features (Speculative from Component Names)
+- **Feedback & Chatbot Integration**: Likely tied to forms or chat service APIs (e.g., Typeform, Dialogflow, or custom backend).
+- **Dynamic Rating System**: `StarRating` suggests a client-side interactivity feature.
+- **Blog & FAQ Sections**: Might involve markdown parsing or CMS integration like **Sanity**, **Strapi**, or **Contentful** (depending on how those components are built).
+
+---
+
+### ✅ **Summary Table**
+
+| Layer           | Tech Used                             |
+| --------------- | ------------------------------------- |
+| Framework       | Next.js (React)                       |
+| Language        | JavaScript (JSX)                      |
+| Styling         | Tailwind CSS                          |
+| UI Components   | ShadCN/UI (likely), Custom Components |
+| Icons           | React Icons                           |
+| Image Handling  | `next/image`                          |
+| Hosting (guess) | Vercel (commonly used with Next.js)   |
+
+---
+
