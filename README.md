@@ -44,11 +44,11 @@ Below are some visuals showcasing various sections of the platform:
 - **Feedback**: Feedback and rating section to improve platform usability.
   ![Feedback](public/images/Feedback.png)
 
-- **Login**: Secure login interface for platform access.
-  ![Login](public/images/Login.png)
+- **SignIn**: Secure login interface for platform access.
+  ![SignIn](public/images/SignIn.png)
 
 - **Signup**: User registration interface for creating an account.
-  ![Signup](public/images/Signup.png)
+  ![Signup](public/images/SignUp.png)
 
 ##  Tech Stack
 
